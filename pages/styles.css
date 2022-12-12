@@ -318,12 +318,19 @@ textarea {
     justify-content: flex-start;
     flex-shrink: 0;
     transform: none;
+    color: #ffffff;
 }
 
-.output-content p {
+.output-content h1 {
     text-align: center;
-    white-space: pre-line;
-    color: rgba(255, 255, 255, 0.5);
+}
+
+.startup-name {
+    color: rgb(255, 79, 18);
+}
+
+.data-section {
+    border-bottom: 4px solid #ffffff;
 }
 
 @media (min-width: 810px) and (max-width: 1199px) {
@@ -369,7 +376,7 @@ textarea {
     }
 
     .header-subtitle h2 {
-        text-align: center;
+        text-align: left;
     }
 
     .key-stroke, .or {
@@ -402,6 +409,11 @@ textarea {
     border-right: 2px solid transparent;
     box-sizing: border-box;
     animation: rotation 1s linear infinite;
+}
+
+.question-title {
+    font-weight: bold;
+    font-size: 25px;
 }
 
 @keyframes rotation {
