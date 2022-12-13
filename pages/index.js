@@ -69,7 +69,7 @@ const Home = () => {
                     <p>{apiOutput.idea}</p>
                   </div>
                   <div className='data-section'>
-                    <p className='question-title'>How will the above idea impact the healthcare market:</p>
+                    <p className='question-title'>How will the above idea impacts the respective market:</p>
                     <p>{apiOutput.marketInfo}</p>
                   </div>
                   <div className='data-section'>

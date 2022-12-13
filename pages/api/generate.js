@@ -31,7 +31,7 @@ const generateAction = async (req, res) => {
   
   ${basePromptOutput.text}
   
-  Based on above startup idea How will it impact the healthcare market: `;
+  Based on above startup idea How will it impacts the respective market: `;
   console.log(marketInfoPrompt)
 
   const marketInfoCompletion = await openai.createCompletion({
